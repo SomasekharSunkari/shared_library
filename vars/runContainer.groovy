@@ -1,3 +1,3 @@
-def call(String name,String ImageName){
-    sh "docker run -d --name ${name} -p 3000:3000 sunkarisomasekhar/${ImageName}:latest"
+def call(){
+    sh "docker run -d --name youtube1 -p 3000:3000 sunkarisomasekhar/youtube:latest"
 }
